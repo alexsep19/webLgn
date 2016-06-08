@@ -22,7 +22,7 @@ public class MyCtrl {
     @GET
     @Path("/")
     public Response test() {
-        return Response.status(200).entity("test page ok").build();
+        return Response.status(200).entity("test page Ok").build();
     }
     
     @POST
